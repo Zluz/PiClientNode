@@ -1,0 +1,46 @@
+
+interval = <time>
+
+set/interval
+
+command:name=value
+
+
+mode:5=1
+
+set:name=value
+
+{"name":"value","key":123,"array":["a","b","c"]}
+
+set:time=10000;set:interval=20000
+
+mode:13=2
+write:13=1
+
+mode:03=1
+
+
+
+
+
+modes
+	1 = read
+	2 = write digital
+	3 = write pwm
+
+	4 = DHT11-1
+	5 = DHT11-2
+	6 = DHT11-3
+
+	7 = gas sensor
+
+
+
+ 10: DHT11
+ 12: audio
+-07:-gas-
+ 03: switch
+
+
+
+mode:03=1;mode:13=2;write:13=1
